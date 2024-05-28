@@ -1,0 +1,56 @@
+/** KEMBALI KE ATAS **/
+
+.scroll-top-wrapper {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  text-align: center;
+  z-index: 99999999;
+  background-color: #00acbf;
+  color: #eeeeee;
+  width: 50px;
+  height: 48px;
+  right: 30px;
+  bottom: 30px;
+  padding-top: 3px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+  background-color: #01a1b3;
+}
+.scroll-top-wrapper.show {
+  visibility:visible;
+  cursor:pointer;
+  opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+  line-height: inherit;
+}
+#counter span {
+  font-size: 36px;
+}
+ 
+.naik{
+  font-size: 30px;
+}
+@media(max-width: 768px){
+  .scroll-top-wrapper{
+    width: 30px;
+    height: auto;
+    bottom:10px;
+    right: 10px;
+padding-top: 0px;
+  }
+.naik{
+  font-size: 22px;
+}
+}
